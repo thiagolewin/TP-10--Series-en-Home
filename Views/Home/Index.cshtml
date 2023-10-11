@@ -1,0 +1,32 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="flex">
+    <div id="MostrarInfo">
+        <h2>Actores</h2>
+    </div>
+    <img src="/img/logo.PNG">
+    <h1 class="display-4">Peliculas de todos los generos</h1>
+    <div class="cards">
+        @foreach(var serie in ViewBag.Series){
+        <div class="card">
+        <div class="image" style='background-image: url("@serie.ImagenSerie");'></div>
+        <div class="content">
+            <a href="#">
+            <span class="title">
+                @serie.Nombre
+            </span>
+            </a>
+            <div class="botones">
+                <button class="button" onclick='Temporadas(@serie.IdSerie)'></button>
+                <button class="actores" onclick='MostrarActores(@serie.IdSerie)'> Actores</button>
+                <button class="actores" onclick='masInfo(@serie.IdSerie)'> Mas Info</button>
+            </div>
+
+        </div>
+        </div>
+    }
+    </div>
+
+</div>

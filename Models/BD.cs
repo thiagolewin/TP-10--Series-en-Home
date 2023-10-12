@@ -40,4 +40,13 @@ public static class BD {
         }
         return temporada;
     }
+
+     public static Info Informacion() {
+        Info informacion = new Info();
+        using(SqlConnection db = new SqlConnection(_connectionString)) {
+            string sql = "SELECT * FROM Info";
+            informacion = db.QueryFirstOrDefault<Info>(sql);
+        }
+        return informacion;
+    }
 }

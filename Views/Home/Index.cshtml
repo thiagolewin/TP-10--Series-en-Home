@@ -6,7 +6,7 @@
     <div id="MostrarInfo">
         <h2>Actores</h2>
     </div>
-    <img src="/img/logo.PNG">
+    <img src="/img/logo.PNG" class="logo">
     <h1 class="display-4">Peliculas de todos los generos</h1>
     <div class="cards">
         @foreach(var serie in ViewBag.Series){
@@ -28,5 +28,5 @@
         </div>
     }
     </div>
-
+     <button class="actores" onclick='MostrarInfo()' style="margin-top: 100px"> Mas Info</button>
 </div>

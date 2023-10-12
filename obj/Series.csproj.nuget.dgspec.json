@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\47755313\\Desktop\\Series\\Series.csproj": {}
+    "C:\\Users\\47393575\\Desktop\\TP-10--Series-en-Home\\Series.csproj": {}
   },
   "projects": {
-    "C:\\Users\\47755313\\Desktop\\Series\\Series.csproj": {
+    "C:\\Users\\47393575\\Desktop\\TP-10--Series-en-Home\\Series.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\47755313\\Desktop\\Series\\Series.csproj",
+        "projectUniqueName": "C:\\Users\\47393575\\Desktop\\TP-10--Series-en-Home\\Series.csproj",
         "projectName": "Series",
-        "projectPath": "C:\\Users\\47755313\\Desktop\\Series\\Series.csproj",
-        "packagesPath": "C:\\Users\\47755313\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\47755313\\Desktop\\Series\\obj\\",
+        "projectPath": "C:\\Users\\47393575\\Desktop\\TP-10--Series-en-Home\\Series.csproj",
+        "packagesPath": "C:\\Users\\47393575\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\47393575\\Desktop\\TP-10--Series-en-Home\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\47755313\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\47393575\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

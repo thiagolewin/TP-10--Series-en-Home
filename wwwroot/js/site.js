@@ -70,3 +70,25 @@ function Temporadas(idSerie){
         }
     })
 }
+
+function MostrarInfo(){
+    const cartel = document.querySelector("#MostrarInfo")
+    cartel.style.display = "flex"
+    $.ajax({
+        url: '/Home/Info',
+        data: {},
+        type: 'GET',
+        dataType: 'json',
+        success: function(response) {
+            console.log(response)
+            $("#MostrarInfo").html(`<h2>Informacion de la app</h2>
+            <p>${response.informacion}</p>`)
+        }, 
+        error: function(xhr,status) {
+            alert("Disculpe, existio un problema")
+        },
+        complete: function(xhr,status) {
+            console.log("realizada")
+        }
+    })
+}
